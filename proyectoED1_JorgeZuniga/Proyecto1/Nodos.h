@@ -14,8 +14,7 @@ class Nodos : public ObjetosA
 		Nodos* getSiguiente();
 		void setDatos(ObjetosA*);
 		ObjetosA* getDatos();
-		~Nodos();
-
+		
 	private:
 		ObjetosA* datos;
 		Nodos* siguiente;

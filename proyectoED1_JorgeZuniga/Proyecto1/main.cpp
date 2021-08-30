@@ -18,10 +18,21 @@ int main(int argc, char** argv) {
 	list->insertar(2,new ObjetosA(cad2));
 	list->insertar(3,new ObjetosA(cad3));
 	list->insertar(4,new ObjetosA(cad4));
+	std::cout<<"Se agrego exitosamente exitosamente!!!\n";
 	std::cout<<"La lista al inicio:\n";
 	//list->imprimir();
-	//list->anular();
-	std::cout<<"\n\nLa lista vacia:\n";	
+	
+	list->sumprimir(2);
+	std::cout<<"Se ha suprimido exitosamente!!!";
+	//list->imprimir();
+	
+	list->sumprimir(2);
+	std::cout<<"Se ha suprimido exitosamente!!!";
+	//list->imprimir();
+	
+	list->anular();
+	std::cout<<"\n\nLa lista se vacio exitosamente!!!\n";
+	std::cout<<"La lista vacia es:\n";	
 	//list->imprimir();
 	
 	delete list;

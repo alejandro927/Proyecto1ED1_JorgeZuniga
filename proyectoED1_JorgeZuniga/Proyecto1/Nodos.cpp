@@ -20,14 +20,6 @@ Nodos::Nodos(ObjetosA* d) {
 	}	
 }
 
-Nodos::~Nodos() {
-	if(this->datos) {
-		delete this->datos;
-	}
-	if(this->siguiente) {
-		delete this->siguiente;
-	}
-}
 
 void Nodos::setAnterior(Nodos* ant) {
 	this->anterior = ant;

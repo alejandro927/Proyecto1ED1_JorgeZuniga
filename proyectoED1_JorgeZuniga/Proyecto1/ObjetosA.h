@@ -6,9 +6,7 @@ class ObjetosA
 	public:
 		ObjetosA();
 		ObjetosA(std::string cad);
-		virtual bool igual(ObjetosA*);
-		virtual std::string toString();
-	private:
+		//virtual std::string toString();
 		std::string dato;
 };
 

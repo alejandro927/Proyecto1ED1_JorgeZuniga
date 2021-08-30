@@ -18,7 +18,7 @@ void LinkList::imprimir() {
 	if(inicio) {
 		Nodos* temporal = inicio;
 		while(temporal) {
-			std::cout<<temporal->getDatos()->toString() << std::endl;
+			//std::cout<<temporal->getDatos()->toString() << std::endl;
 			temporal = temporal->getSiguiente();
 		}
 	}
