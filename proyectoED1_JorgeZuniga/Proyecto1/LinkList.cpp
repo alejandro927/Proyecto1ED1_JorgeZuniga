@@ -141,24 +141,6 @@ void LinkList::anular() {
 	numeroElementos = 0;
 }
 
-int LinkList::localizar(ObjetosA* o) {
-	int posicion = 1;
-	Nodos* temporal = inicio;
-	while ((temporal != NULL) && (posicion <= numeroElementos)) {
-		if (temporal->getDatos()->igual(o)) {
-			return posicion;
-		} else {
-			posicion++;
-		}
-		temporal = temporal->getSiguiente();
-		if(inicio) {
-			delete inicio;
-			inicio=NULL;
-			numeroElementos = 0;
-		}
-	}
-	return -1;
-}
 
 ObjetosA* LinkList::siguiente(int posicion) {
 	if (posicion >= 1 || posicion < numeroElementos) {

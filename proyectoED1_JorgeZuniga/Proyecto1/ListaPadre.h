@@ -13,7 +13,6 @@ class ListaPadre
 		virtual void insertar(int, ObjetosA* )=0;
 		virtual ObjetosA* sumprimir(int)=0;
 		virtual void anular()=0;
-		virtual int localizar(ObjetosA*)=0;
 		virtual ObjetosA* siguiente(int)=0;
 		virtual ObjetosA* anterior(int)=0;
 		virtual ObjetosA* recuperar(int)=0;

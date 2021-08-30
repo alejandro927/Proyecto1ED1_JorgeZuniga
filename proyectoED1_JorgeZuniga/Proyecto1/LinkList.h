@@ -13,7 +13,6 @@ class LinkList : public ListaPadre {
 		virtual void insertar(int, ObjetosA* );
 		virtual ObjetosA* sumprimir(int);
 		virtual void anular();
-		virtual int localizar(ObjetosA*);
 		virtual ObjetosA* siguiente(int);
 		virtual ObjetosA* anterior(int);
 		virtual ObjetosA* recuperar(int);
