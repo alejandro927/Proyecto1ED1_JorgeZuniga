@@ -23,12 +23,9 @@ int main(int argc, char** argv) {
 	//list->imprimir();
 	
 	list->sumprimir(2);
-	std::cout<<"Se ha suprimido exitosamente!!!";
+	std::cout<<"\n\nSe ha suprimido exitosamente!!!\n";
 	//list->imprimir();
 	
-	list->sumprimir(2);
-	std::cout<<"Se ha suprimido exitosamente!!!";
-	//list->imprimir();
 	
 	list->anular();
 	std::cout<<"\n\nLa lista se vacio exitosamente!!!\n";
